@@ -20,6 +20,7 @@ The goals are:
 
 ```bash
 git clone https://github.com/oncletom/grunt-testing-workshop.git
+cd grunt-testing-workshop
 npm install -g grunt-cli
 npm install
 ```
