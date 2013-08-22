@@ -36,6 +36,7 @@ module.exports = function (grunt) {
   grunt.loadNpmTasks('grunt-mocha-test');
 
   grunt.registerTask('default', ['mochaTest']);
+  grunt.registerTask('test', ['mochaTest']);
 
   require('./src/custom-tasks.js')(grunt);
 };

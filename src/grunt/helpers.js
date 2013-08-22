@@ -22,7 +22,7 @@ module.exports = function (grunt) {
      * @returns {Array}
      */
     get services(){
-      return grunt.file.expand('tabloid/webapp/static/sass/services/*').map(path.basename).filter(isFolderNotBlacklisted)
+      return grunt.file.expand('webapp/static/sass/services/*').map(path.basename).filter(isFolderNotBlacklisted)
     },
     /**
      * Indicates if a service exists or not.
