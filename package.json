@@ -1,0 +1,20 @@
+{
+  "name": "grunt-testing-workshop",
+  "version": "1.0.0",
+  "description": "Learning to refactor and test Grunt Tasks within BBC News and BBC R&D.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt mochaTest"
+  },
+  "readmeFilename": "README.md",
+  "author": "Thomas Parisot <thomas.parisot@bbc.co.uk>",
+  "license": "BSD",
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "sinon": "~1.7.3",
+    "request": "~2.27.0",
+    "grunt": "~0.4.1",
+    "grunt-mocha-test": "~0.6.3",
+    "grunt-contrib-watch": "~0.5.2"
+  }
+}
